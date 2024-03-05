@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="py-[14px] bg-[#fff] border-b-[0.5px] border-b-[#E3E6EB]">
+    <header class="py-[14px] border-b-[0.5px] border-b-[#e3e6eb45]">
         <div class="container">
             <nav class="flex px-[14px] justify-between items-center">
                 <div>
@@ -30,23 +30,26 @@
                 <div class="flex items-center gap-[20px]">
                     <i class='bx bx-search font-[100] text-[#c4c4c4] text-[26px] relative left-[65px]'></i>
                     <input type="text"
-                        class="w-[670px] rounded-[25px] border-[1px] border-[#E3E6EB] bg-[#F8FAFD] pr-[1px] pl-[58px] py-[17px] outline-none"
+                        class="search w-[670px] rounded-[25px] border-[1px] border-[#e3e6eb3d] bg-transparent pr-[1px] pl-[58px] py-[17px] outline-none"
                         placeholder="Search books">
                 </div>
 
                 <div class="flex items-center gap-[10px]">
                     <i class='bx bxs-sun text-[33px] cursor-pointer text-yellow-500'></i>
-                    <button
-                        class="mr-[-30px] py-[11px] px-[23px] bg-[#0D75FF] rounded-[4px] text-[#fff] hover:bg-[#0d76ffd8]">Logout</button>
+
+                    <a href="./index.html">
+                        <button
+                            class="mr-[-30px] py-[11px] px-[23px] bg-[#0D75FF] rounded-[4px] text-[#fff] hover:bg-[#0d76ffd8]">Logout</button>
+                    </a>
                 </div>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="section-1" class="bg-[#F8FAFD]">
+        <section id="section-1" class="bg-transparent">
             <div class="container">
-                <div class="flex justify-end gap-[520px] py-[20px]">
+                <div class="flex justify-end gap-[520px] py-[20px] bg-transparent">
                     <h3 class="text-[16px] text-[#222531] font-[700]">Showing <span class="result_count">18</span>
                         Result(s)</h3>
 
@@ -58,7 +61,7 @@
                 </div>
                 <div class="section-1_wrapper flex absolute">
                     <aside
-                        class="relative pt-[25px] pl-[25px] pr-[25px] pb-[30%] w-[268px] border-r-[0.5px] border-r-[#0000003d] bg-[#fff]">
+                        class="relative pt-[25px] pl-[25px] pr-[25px] pb-[30%] w-[268px] border-r-[1px] border-r-[#0000003d] bg-transparent">
                         <h2 class="text-[24px] font-[600]">Bookmarks</h2>
                         <p class="pb-[25px] pt-[5px] text-[14px] font-[500]">If you don’t like to read, you haven’t
                             found the
@@ -66,7 +69,7 @@
 
                         <div class="bookmark-wrapper flex flex-col gap-[15px]">
                             <div
-                                class="bookmark flex justify-between py-[15px] px-[10px] bg-[#F8FAFD] rounded-[4px] w-[218px]">
+                                class="bookmark flex justify-between py-[15px] px-[10px] bg-transparent rounded-[4px] w-[218px]">
                                 <div>
                                     <h3 class="text-[16px] font-[600]">Python</h3>
                                     <small class="text-[13px] font-[500] text-[#757881]">David M. Beazley</small>
@@ -79,7 +82,7 @@
                             </div>
 
                             <div
-                                class="bookmark flex justify-between py-[15px] px-[10px] bg-[#F8FAFD] rounded-[4px] w-[218px]">
+                                class="bookmark flex justify-between py-[15px] px-[10px] bg-transparent rounded-[4px] w-[218px]">
                                 <div>
                                     <h3 class="text-[16px] font-[600]">Java</h3>
                                     <small class="text-[13px] font-[500] text-[#757881]">David M. Beazley</small>
@@ -93,7 +96,7 @@
 
 
                             <div
-                                class="bookmark flex justify-between py-[15px] px-[10px] bg-[#F8FAFD] rounded-[4px] w-[218px]">
+                                class="bookmark flex justify-between py-[15px] px-[10px] bg-transparent rounded-[4px] w-[218px]">
                                 <div>
                                     <h3 class="text-[16px] font-[600]">C++</h3>
                                     <small class="text-[13px] font-[500] text-[#757881]">David M. Beazley</small>
@@ -108,8 +111,8 @@
                         </div>
                     </aside>
 
-                    <div class="section-1_main p-[30px]">
-                        <div class="card-wrapper grid grid-cols-3 gap-[40px]">
+                    <div class="section-1_main p-[30px] bg-transparent">
+                        <div class="card-wrapper grid grid-cols-3 gap-[40px] bg-transparent">
 
                         </div>
                     </div>

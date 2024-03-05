@@ -13,3 +13,8 @@
     max-width: 1200px !important;
     margin: 0 auto !important;
 }
+
+.dark23 {
+    background-color: rgb(9, 9, 29) !important;
+    color: #fff !important;
+}
