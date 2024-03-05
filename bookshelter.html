@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./style2.css">
+
+    <!-- TAILWIND LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- BOXICONS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>BookShelter</title>
+</head>
+
+<body>
+    <header class="py-[14px] bg-[#fff] border-b-[0.5px] border-b-[#E3E6EB]">
+        <div class="container">
+            <nav class="flex px-[14px] justify-between items-center">
+                <div>
+                    <img src="./assets/images/main-2logo.svg" alt="main2-logo">
+                </div>
+
+                <div class="flex items-center gap-[20px]">
+                    <i class='bx bx-search font-[100] text-[#c4c4c4] text-[26px] relative left-[65px]'></i>
+                    <input type="text"
+                        class="w-[670px] rounded-[25px] border-[1px] border-[#E3E6EB] bg-[#F8FAFD] pr-[1px] pl-[58px] py-[17px] outline-none"
+                        placeholder="Search books">
+                </div>
+
+                <div class="flex items-center gap-[10px]">
+                    <i class='bx bxs-sun text-[33px] cursor-pointer text-yellow-500'></i>
+                    <button
+                        class="mr-[-30px] py-[11px] px-[23px] bg-[#0D75FF] rounded-[4px] text-[#fff] hover:bg-[#0d76ffd8]">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="section-1" class="bg-[#F8FAFD]">
+            <div class="container">
+                <div class="flex justify-end gap-[520px] py-[20px]">
+                    <h3 class="text-[16px] text-[#222531] font-[700]">Showing <span class="result_count">18</span>
+                        Result(s)</h3>
+
+                    <div
+                        class="text-[#fff] flex gap-[9px] items-center bg-[#A6B0C3] rounded-[4px] py-[5px] px-[13px] mr-[-20px]">
+                        <i class='bx bx-calendar'></i>
+                        <p class="text-[14px]">Order by newest</p>
+                    </div>
+                </div>
+                <div class="section-1_wrapper flex absolute">
+                    <aside
+                        class="relative pt-[25px] pl-[25px] pr-[25px] pb-[30%] w-[268px] border-r-[0.5px] border-r-[#0000003d] bg-[#fff]">
+                        <h2 class="text-[24px] font-[600]">Bookmarks</h2>
+                        <p class="pb-[25px] pt-[5px] text-[14px] font-[500]">If you don’t like to read, you haven’t
+                            found the
+                            right book</p>
+
+                        <div class="bookmark-wrapper flex flex-col gap-[15px]">
+                            <div
+                                class="bookmark flex justify-between py-[15px] px-[10px] bg-[#F8FAFD] rounded-[4px] w-[218px]">
+                                <div>
+                                    <h3 class="text-[16px] font-[600]">Python</h3>
+                                    <small class="text-[13px] font-[500] text-[#757881]">David M. Beazley</small>
+                                </div>
+
+                                <div class="flex items-center gap-1">
+                                    <i class='bx bx-book-open text-[26px] cursor-pointer text-[#75828A]'></i>
+                                    <i class='bx bx-task-x text-[26px] cursor-pointer text-[#FF6231]'></i>
+                                </div>
+                            </div>
+
+                            <div
+                                class="bookmark flex justify-between py-[15px] px-[10px] bg-[#F8FAFD] rounded-[4px] w-[218px]">
+                                <div>
+                                    <h3 class="text-[16px] font-[600]">Java</h3>
+                                    <small class="text-[13px] font-[500] text-[#757881]">David M. Beazley</small>
+                                </div>
+
+                                <div class="flex items-center gap-1">
+                                    <i class='bx bx-book-open text-[26px] cursor-pointer text-[#75828A]'></i>
+                                    <i class='bx bx-task-x text-[26px] cursor-pointer text-[#FF6231]'></i>
+                                </div>
+                            </div>
+
+
+                            <div
+                                class="bookmark flex justify-between py-[15px] px-[10px] bg-[#F8FAFD] rounded-[4px] w-[218px]">
+                                <div>
+                                    <h3 class="text-[16px] font-[600]">C++</h3>
+                                    <small class="text-[13px] font-[500] text-[#757881]">David M. Beazley</small>
+                                </div>
+
+                                <div class="flex items-center gap-1">
+                                    <i class='bx bx-book-open text-[26px] cursor-pointer text-[#75828A]'></i>
+                                    <i class='bx bx-task-x text-[26px] cursor-pointer text-[#FF6231]'></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </aside>
+
+                    <div class="section-1_main p-[30px]">
+                        <div class="card-wrapper grid grid-cols-3 gap-[40px]">
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="./index.js"></script>|
+</body>
+
+</html>
