@@ -171,10 +171,10 @@ async function localgetData(id){
                                     <small class="text-[13px] font-[500] text-[#757881]">${result.volumeInfo.authors[0].length < 100 ? result.volumeInfo.authors[0].substring(0,10) : result.volumeInfo.authors[0]}</small>
                                 </div>
 
-                                <div class="flex items-center gap-1">
-                                    <i class='bx bx-book-open text-[26px] cursor-pointer text-[#75828A]'></i>
+
+                                    <i class='relative left-[27px] bx bx-book-open text-[26px] cursor-pointer text-[#75828A]'></i>
                                     <i class='delete-book bx bx-task-x text-[26px] cursor-pointer text-[#FF6231]'></i>
-                                </div>
+                               
     
     `
 
@@ -191,6 +191,6 @@ async function localgetData(id){
 
 bookmarkWrapper.addEventListener('click',(e)=>{
     if(e.target.classList.contains('delete-book')){
-        e.target.parentNode.innerHTML = ' ';
+        e.target.parentNode.innerHTML = '';
     }
 })
